@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 //import { Link } from 'react-router-dom';
 import Logo from './Logo';
-import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 class Navigation extends Component {
 
@@ -12,6 +11,7 @@ class Navigation extends Component {
     };
     this.updateState = this.updateState.bind(this);
   }
+  
   updateState(event) {
     const Link_id = event.target.id;
     //selecting parent element
@@ -55,16 +55,16 @@ class Navigation extends Component {
     onLoad= {this.assign} 
   }
 */
-  render() {
-    return (
-      <header>
+
+/*
+
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="/">      
           <Logo></Logo>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav classNameName="mr_auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Resume">Resume</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
@@ -77,8 +77,32 @@ class Navigation extends Component {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      </header>
-      )
-    }
+*/
+  render() {
+    return (
+      <nav className ="navbar navbar-expand-md navbar-light bg-light sticky-top">
+          <div className ="container-fluid">
+              <a href= "/"><Logo></Logo></a>
+              <button className="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarResponsive">
+                  <span className="navbar-toggler-icon"></span>
+              </button>
+              <div className="collapse navbar-collapse" id="navbarResponsive">
+                  <ul className="navbar-nav ml-auto">
+                      <li className="nav-item active">
+                          <a className="nav-link" href="/">Home</a>
+                      </li>
+                      <li className="nav-item">
+                          <a className="nav-link" href="/Resume">Resume</a>
+                      </li>
+                      <li className="nav-item">
+                          <a className="nav-link" href="/Contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+    )
+  }
 }
 export default Navigation;
