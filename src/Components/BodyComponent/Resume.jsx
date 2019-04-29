@@ -4,30 +4,30 @@ import React, {Component} from 'react';
 class Resume extends Component {
     render() {
         return (
-            <div class="mainContent">
+            <div className="mainContent">
                 <h1><em>Ray Yoon </em></h1>
-                <ul class ="contact">
+                <ul className ="contact">
                     <li>Current Location: </li>	
                     <li>Philadelphia, PA 19128</li>
                 </ul>
                 <hr/>
-                <div class="objective">
+                <div className="objective">
                     <h2>Objective</h2>
                     <p>Seeking an Entry Level Mobile or Web Developer position in an established organization where I can use my educational background and develop my skills.</p>
                 </div>
                 <hr/>
-                <div class="experiences">
+                <div className="experiences">
                     <h2>Work Experience</h2>
                     <ul> Android /Web Application Developer
-                        <ul class="whereAndWhen">
-                            <li class="whereAndWhen">
+                        <ul className="whereAndWhen">
+                            <li className="whereAndWhen">
                                 Self- Employed - Santa Clara, CA
                             </li>
-                            <li class="whereAndWhen">
+                            <li className="whereAndWhen">
                                     2016 to Present
                             </li>
                         </ul>
-                        <ul class="experiences">
+                        <ul className="experiences">
                             <li>
                                 ➢ Create and launch an Android application with a simple user interface design that embedded mathematical logics.  
                             </li>
@@ -44,14 +44,14 @@ class Resume extends Component {
                         </ul>				
                     </ul>
                     <ul> Operation Manager
-                        <ul class="whereAndWhen">
-                            <li class="whereAndWhen">
+                        <ul className="whereAndWhen">
+                            <li className="whereAndWhen">
                                 SK Education Consulting Group - San Jose, CA							</li>
-                            <li class="whereAndWhen">
+                            <li className="whereAndWhen">
                                 2012 to 2016				
                             </li>
                         </ul>
-                        <ul class="experiences">
+                        <ul className="experiences">
                             <li>
                                 ➢ IT support for the company by maintaining the computer systems/networks and diagnosing hardware/software faults.							
                             </li>
@@ -71,9 +71,9 @@ class Resume extends Component {
                     </ul>
                     <hr/>
                 </div>			
-                <div class="relative_skills">
+                <div className="relative_skills">
                     <h2>Relative Skills</h2>
-                    <ul class="relative_lists">
+                    <ul className="relative_lists">
                         <li>•	Java (2 years)</li>
                         <li>•	Android (1 year)</li>
                         <li>•	Kotlin</li>
@@ -86,21 +86,21 @@ class Resume extends Component {
                     </ul>
                 </div>
                 <hr/>
-                <div class="degree">
+                <div className="degree">
                     <h2>Education</h2>
                     <ul > Associate of Science in Computer Science
-                            <li class="whereAndWhen">
+                            <li className="whereAndWhen">
                                 Self- Employed - Santa Clara, CA
                             </li>
-                            <li class="whereAndWhen">
+                            <li className="whereAndWhen">
                                     2016
                             </li>
                     </ul>
                     <ul> Bachelor of Science in Biochemistry and Cell Biology
-                            <li class="whereAndWhen">
+                            <li className="whereAndWhen">
                                 Self- Employed - Santa Clara, CA
                             </li>
-                            <li class="whereAndWhen">
+                            <li className="whereAndWhen">
                                     2011
                             </li>
                     </ul>

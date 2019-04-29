@@ -17,19 +17,18 @@ class Footer extends Component {
             </div>
             <div className="col-md-4">
                 <hr className="light"/>
-                <h5>Our Hours</h5>
+                <h5>Currently Available Hours</h5>
                 <hr className="light"/>
-                <p>Monday: 9am - 5pm</p>
-                <p>Saturday: 10am- 4pm</p>
+                <p>Monday: 11:30am - 5pm</p>
+                <p>Saturday: 10am- 5pm</p>
             </div>
             <div className="col-md-4">
                 <hr className="light"/>
-                <h5>Service Areas</h5>
+                <h5>Desired Distance To Work</h5>
                 <hr className="light"/>
-                <p>City,State,00000</p>
-                <p>City,State,00000</p>
-                <p>City,State,00000</p>
-                <p>City,State,00000</p>
+                <p>One hour driving distance</p>
+                <p>from Temple University</p>
+                <p>Philadelphia, PA, 19122</p>
             </div>
             <div className="col-12">
                 <hr className="light-100"/>
