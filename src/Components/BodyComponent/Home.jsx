@@ -86,17 +86,25 @@ class Home extends Component {
           </ul>
           <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={first_slide} alt= "first_slide"/>
+                <img src={first_slide} alt= "srt_media_player"/>
                 <div className="carousel-caption">
                     <button type="button" className="btn btn-outline-light btn-lg">VIEW DEMO</button>
                     <button type="button" className="btn btn-primary btn-lg">Get Started</button>
                 </div>
               </div>
               <div className="carousel-item">
-                  <img src={second_slide} alt="second_slide"/>
+                  <img src={second_slide} alt="squirrel_college"/>
+                  <div className="carousel-caption">
+                    <button type="button" className="btn btn-outline-light btn-lg">VIEW DEMO</button>
+                    <button type="button" className="btn btn-primary btn-lg">Get Started</button>
+                  </div>
               </div>
               <div className="carousel-item">
-                  <img className= "img-fluid" src={third_slide} alt="thrid_slide"/>
+                <img className= "img-fluid" src={third_slide} alt="git_slide"/>  
+                <div className="carousel-caption">
+                  <button type="button" className="btn btn-outline-light btn-lg">GitHub</button>
+                  <button type="button" className="btn btn-primary btn-lg">GitLap</button>
+                </div>
               </div>
           </div>
         </div>

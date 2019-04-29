@@ -4,18 +4,27 @@ import React, {Component} from 'react';
 class Resume extends Component {
     render() {
         return (
-            <div className="mainContent">
-                <h1><em>Ray Yoon </em></h1>
-                <ul className ="contact">
-                    <li>Current Location: </li>	
-                    <li>Philadelphia, PA 19128</li>
-                </ul>
-                <hr/>
-                <div className="objective">
-                    <h2>Objective</h2>
-                    <p>Seeking an Entry Level Mobile or Web Developer position in an established organization where I can use my educational background and develop my skills.</p>
+    <div className="container">            
+	    <div class="block">
+            <div class="row">
+                <img class="img-left" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg"/>
+                <div class="content-heading-right">
+                    <h3>Ray Young Hwan Yoon</h3>
+                    <ul className ="contact">
+                        <li>Phone: 408-691-7625</li>
+                        <li>Current Location: </li>	
+                        <li>Philadelphia, PA 19128</li>
+                    </ul>
+                    <hr/>
                 </div>
-                <hr/>
+            </div>
+        </div>
+        <br/>
+        <div className="objective">
+            <h2>Objective</h2>
+            <p>Seeking an Entry Level Mobile or Web Developer position in an established organization where I can use my educational background and develop my skills.</p>
+        </div>
+            <hr/>
                 <div className="experiences">
                     <h2>Work Experience</h2>
                     <ul> Android /Web Application Developer
