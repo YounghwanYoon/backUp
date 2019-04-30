@@ -1,0 +1,21 @@
+/* import the necessary Bootstrap files */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+html {
+  width: 100%;
+}
+
+.navbar-expand-md .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  background-color:black !important;
+}
+
+
+/*# sourceMappingURL=custom.css.map */
+
+
+
+/* finally, import Bootstrap to set the changes! */
+@import "bootstrap";

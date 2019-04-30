@@ -4,12 +4,28 @@ import React, {Component} from 'react';
 class Resume extends Component {
     render() {
         return (
-    <div className="container">            
-	    <div class="block">
-            <div class="row">
-                <img class="img-left" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg"/>
-                <div class="content-heading-right">
-                    <h3>Ray Young Hwan Yoon</h3>
+            <div>
+            <div className="container-fluid padding">
+                <div className="row padding">
+                    <div className="col-lg-6">
+                        <img src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg" alt ="my face"className="img-fluid"/>
+                    </div>
+                    <div className="col-md-12 col-lg-6">
+                        <h3>Ray Yoon</h3>
+                        <p>Phone: 408-691-7625</p>
+                        <p>Current Location: </p>	
+                        <p>Philadelphia, PA 19128</p>
+                        <a href="/Resume" className="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <hr className="my-4"/>
+            
+            <div className="container">            
+	    <div className="block">
+            <div className="row">
+                <img className="img-left" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg" alt ="..."/>
+                <div className="content-heading-right">
                     <ul className ="contact">
                         <li>Phone: 408-691-7625</li>
                         <li>Current Location: </li>	
@@ -115,6 +131,16 @@ class Resume extends Component {
                     </ul>
             </div>
             </div>
+            </div>
+
+
+
+
+
+
+
+
+
         )
     }
 }
