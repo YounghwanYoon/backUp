@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import first_slide from '../../img/media_player.png';
 import second_slide from '../../img/squirrel_college.png';
 import third_slide from '../../img/gits.png';
-
+import custom from '../../style/custom.css';
 /*
 
 import styled from 'styled-components';
@@ -14,43 +14,10 @@ const Styles = styled.div'
 ';
 */
 
-/*
-<Carousel>
-        <Carousel.Item>
-          <img
-            src= {first_slide}
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            <button type="button" classNameName ="btn btn-outline-light btn-lg">AppStore</button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            classNameName="d-block w-100"
-            src={second_slide}
-            alt="Second slide"
-          />
-          <Carousel.Caption>            
-            <button type="button" classNameName ="btn btn-outline-light btn-lg">AppStore</button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            classNameName="d-block w-100"
-            src={third_slide}
-            alt="Third slide"
-          />
-        </Carousel.Item>
-    </Carousel>
-.
-*/
 class Objective extends React.Component{
   render(){
     return (
-      <div clasName= "jumbotron">
+      <div className= "jumbotron">
         <h5 className= "display-4">About Me</h5>
         <p>Hello there,my name is Young Hwan Yoon and I go by Ray Yoon due to the pronouciation difficulty.</p>
         <p>I am a person who got a taste of power of a computer science while I was working for my previous company, called SK Education Consulting Group.
@@ -67,31 +34,12 @@ class Objective extends React.Component{
           I learned basic idea about programming languages such as Java, JavaScript, CSS, HTML. After graduation, I decided to learn and make android application. 
           It is not because I am into android but just because I happended to have android smart phones. Above are my published and unpulbished projects.
         </p>
-      </div> 
+      </div>
     );
   }
 }
+/*
 
-
-class Home extends Component {
-   
-  render() {
-    return (
-      <div>
-        <div id="slides" className="carousel slide" data-ride="carousel">
-          <ul className="carousel-indicators">
-              <li data-target="#slides" data-slide-to="0" className="active"></li>
-              <li data-target="#slides" data-slide-to="1"></li>
-              <li data-target="#slides" data-slide-to="2"></li>
-          </ul>
-          <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src={first_slide} alt= "srt_media_player"/>
-                <div className="carousel-caption">
-                    <button type="button" className="btn btn-outline-light btn-lg">VIEW DEMO</button>
-                    <button type="button" className="btn btn-primary btn-lg">Get Started</button>
-                </div>
-              </div>
               <div className="carousel-item">
                   <img src={second_slide} alt="squirrel_college"/>
                   <div className="carousel-caption">
@@ -104,6 +52,27 @@ class Home extends Component {
                 <div className="carousel-caption">
                   <button type="button" className="btn btn-outline-light btn-lg">GitHub</button>
                   <button type="button" className="btn btn-primary btn-lg">GitLap</button>
+                </div>
+              </div>
+*/
+
+class Home extends Component {
+   
+  render() {
+    return (
+      <div className={custom}>
+        <div id="slides" className="carousel slide" data-ride="carousel">
+          <ul className="carousel-indicators">
+              <li data-target="#slides" data-slide-to="0" className="active"></li>
+              <li data-target="#slides" data-slide-to="1"></li>
+              <li data-target="#slides" data-slide-to="2"></li>
+          </ul>
+          <div className="carousel-inner">
+              <div className="carousel-item active" id="img-center">
+                <img src={first_slide} alt= "srt_media_player"/>
+                <div className="carousel-caption">
+                    <button type="button" className="btn btn-outline-light btn-lg">VIEW DEMO</button>
+                    <button type="button" className="btn btn-primary btn-lg">Get Started</button>
                 </div>
               </div>
           </div>

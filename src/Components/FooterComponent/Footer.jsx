@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import fstyle from './footer_style.css';
 
 class Footer extends Component {
   render() {
     return (
-    <footer>
+    <footer className={fstyle}>
     <div className="container-fluid padding">
         <div className="row text-center">
             <div className="col-md-4">
