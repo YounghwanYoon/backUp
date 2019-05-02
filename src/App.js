@@ -23,6 +23,7 @@ function App() {
           <Route exact path ="/Contact" component={Contact}/>
           <Route component={NoMatch}/>
         </Switch>
+        
         <Footer></Footer>
       </Router>
     </React.Fragment>

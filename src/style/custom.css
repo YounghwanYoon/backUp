@@ -12,6 +12,10 @@ body .carousel {
   opacity: 50% !important;
 }
 
+body .col-lg-6 {
+  text-align: center !important;
+}
+
 p {
   color: #997979;
 }
