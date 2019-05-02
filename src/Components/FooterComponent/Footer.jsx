@@ -11,9 +11,9 @@ class Footer extends Component {
                 <hr className="light"/>
                 <h5>Contact Information</h5>
                 <hr className="light"/>
-                <p>408-691-7625</p>
-                <p>email:ray.yoon87@gmail.com</p>
-                <p>7950 Henry Ave</p>
+                <p>Phone: 408-691-7625</p>
+                <p>Email: ray.yoon87@gmail.com</p>
+                <p>Current Location: 7950 Henry Ave</p>
                 <p>Philadelphia,PA,19128</p>
             </div>
             <div className="col-md-4">

@@ -6,16 +6,18 @@ class Resume extends Component {
         return (
             <div>
             <div className="container-fluid padding">
-                <div className="row padding">
-                    <div className="col-lg-6">
-                        <img src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg" alt ="my face"className="img-fluid"/>
-                    </div>
-                    <div className="col-md-12 col-lg-6">
-                        <h3>Ray Yoon</h3>
-                        <p>Phone: 408-691-7625</p>
-                        <p>Current Location: </p>	
-                        <p>Philadelphia, PA 19128</p>
-                        <a href="/Resume" className="btn btn-primary">Learn More</a>
+                <div className="jumbotron">
+                    <div className="row padding">
+                        <div className="col-lg-6">
+                            <img className="border-primary" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg" alt ="my face"className="img-fluid"/>
+                        </div>
+                        <div className="col-md-12 col-lg-6">
+                            <h3>Ray Yoon</h3>
+                            <p>Phone: 408-691-7625</p>
+                            <p>Current Location: </p>	
+                            <p>Philadelphia, PA 19128</p>
+                            <a href="/Resume" className="btn btn-primary">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
