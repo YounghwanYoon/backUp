@@ -16,6 +16,10 @@ body .col-lg-6 {
   text-align: center !important;
 }
 
+body .contact {
+  text-align: center !important;
+}
+
 p {
   color: #997979;
 }
@@ -25,6 +29,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.contact {
+  margin: auto;
 }
 
 /*!
