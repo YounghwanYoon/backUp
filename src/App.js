@@ -9,14 +9,16 @@ import Contact from './Components/BodyComponent/Contact';
 import {NoMatch} from './Components/BodyComponent/NoMatch';
 //import Logo from './Components/HeaderComponent/Logo';
 //import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
-import NavBar from './Components/HeaderComponent/NavBar';
+//
+
+import Header from './Components/HeaderComponent/Header';
 import Footer from './Components/FooterComponent/Footer';
 
 function App() {
   return (
     <React.Fragment>
       <Router>
-        <NavBar></NavBar>
+        <Header></Header>
         <Switch>
           <Route exact path ="/" component={Home}/>
           <Route exact path ="/Resume" component={Resume}/>

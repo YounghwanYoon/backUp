@@ -31,8 +31,48 @@ img {
   text-align: center;
 }
 
+/*Contact Style 
+ .jumbotron{
+    //background-color: #5ea7d3 !important;
+  }
+*/
 .contact {
-  margin: auto;
+  background-image: url("../img/background.jpg") !important;
+  position: relative;
+  width: 100%;
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  border: 2px solid #2175ad;
+}
+
+.contact label {
+  font-family: Impact, Charcoal, sans-serif;
+  color: black !important;
+  border-radius: .7rem;
+  border: 2px solid #2175ad;
+  padding: 0.2rem;
+  background: rgba(233, 236, 239, 0.8);
+  margin-top: 1rem;
+}
+
+.contact input {
+  border-radius: 0.7rem;
+  border: 2px solid #2175ad;
+}
+
+.contact textarea {
+  border-radius: 0.7rem;
+  border: 2px solid #2175ad;
+}
+
+.contact button {
+  margin: 0.5rem;
 }
 
 /*!

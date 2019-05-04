@@ -75,20 +75,22 @@ class Contact extends Component {
 
   render() {
     return (
-        <div className="contact" id = "contact" >
-            <form className={this.state.submitted?'fadeIn':'fadeOut'} id="gform" name="gform" target="hidden_iframe" action="https://docs.google.com/forms/d/e/1FAIpQLSeFnfChxkMrp2a5iJAfiLDQi4LAOt7IrDc1_6OsV2XcQzaTFg/formResponse?"
-                onSubmit={this.handleSubmit}>
+        <div className="jumbotron">
+            <div className="contact" id = "fixed-wrap" >
+                <form className={this.state.submitted?'fadeIn':'fadeOut'} id="gform" name="gform" target="hidden_iframe" action="https://docs.google.com/forms/d/e/1FAIpQLSeFnfChxkMrp2a5iJAfiLDQi4LAOt7IrDc1_6OsV2XcQzaTFg/formResponse?"
+                    onSubmit={this.handleSubmit}>
                     <label htmlFor="entry.2005620554">Company Name</label><br/>
                     <input type="text" name="entry.2005620554" id="entry.2005620554"/><br/>
                     <label htmlFor="entry.1045781291">Email Address</label><br/>
                     <input type="email" name="entry.1045781291" id="entry.1045781291" placeholder="name@example.com"/><br/>
-                    <label htmlFor="entry.1166974658">Phone</label><br/>
+                    <label htmlFor="entry.1166974658">Phone Number</label><br/>
                     <input type="tel" name="entry.1166974658" id="entry.1166974658"/><br/>
                     <label htmlFor="entry.839337160">Message</label><br/>
                     <textarea name="entry.839337160" id="entry.839337160" rows="10" cols="50"></textarea><br/>
-                    <button className= "btn btn-outline-primary" id="submit" type="submit" name="" value="submit" >Submit</button>
+                    <button className= "btn btn-primary" id="submit" type="submit" name="" value="submit" >Submit</button>
                 </form>
                 <iframe title="Unique Title"name="hidden_iframe" id="hidden_iframe" style={{display:"none"}} onLoad={()=>{if(this.props.submitted === true)return true;} }></iframe>
+            </div>
             <div className={this.state.submitted?'fadeOut':'fadeIn'} style={{display:"none"}}>Your submission has been successfully processed. Thank you for your interests.</div>
         </div>
     )
