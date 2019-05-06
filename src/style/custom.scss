@@ -78,10 +78,9 @@ img{
   #personal-title{
     text-align: center;
   }
-
-
   p{
     margin-bottom: 0rem !important;
+    color: #000091 !important;
   }
   .title{
     text-align: left !important;
@@ -91,8 +90,43 @@ img{
     text-align: left !important;
 
   }
-  
 
+  .work_exp{
+    .job_title{
+      font-weight: bold;
+    }
+    .details ul{  
+      margin:0;
+      padding:0;
+      padding-top:.5rem;
+      padding-bottom: .5rem;
+      text-align: left !important;
+    }
+  }
+
+  .Objective p{
+    text-align: left !important;
+  }
+  
+  .skills ul{
+    list-style-type:circle;
+    text-align: left !important;
+    .progress{
+      margin: 1rem !important;
+    }
+    #Java{
+      width:90%;
+    }
+    #Kotlin, #Web-related{
+      width:60%;
+    }
+    #SQLite{
+      width:50%;
+    }
+    #Others{
+      width:70%;
+    }
+  }
 }
 
 

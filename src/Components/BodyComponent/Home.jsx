@@ -4,6 +4,7 @@ import second_slide from '../../img/squirrel_college.png';
 import third_slide from '../../img/gits.png';
 import custom from '../../style/custom.css';
 import Resume from './Resume';
+import Contact from './Contact';
 
 
 /*
@@ -84,7 +85,9 @@ class Home extends Component {
         </div>
         <Objective/>
         <br/>
-        <Resume/>>
+        <Resume/>
+        <br/>
+        <Contact/>
       </div>
     )
   }

@@ -89,6 +89,7 @@ img {
 
 .resume p {
   margin-bottom: 0rem !important;
+  color: #000091 !important;
 }
 
 .resume .title {
@@ -97,6 +98,47 @@ img {
 
 .resume .info {
   text-align: left !important;
+}
+
+.resume .work_exp .job_title {
+  font-weight: bold;
+}
+
+.resume .work_exp .details ul {
+  margin: 0;
+  padding: 0;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: left !important;
+}
+
+.resume .Objective p {
+  text-align: left !important;
+}
+
+.resume .skills ul {
+  list-style-type: circle;
+  text-align: left !important;
+}
+
+.resume .skills ul .progress {
+  margin: 1rem !important;
+}
+
+.resume .skills ul #Java {
+  width: 90%;
+}
+
+.resume .skills ul #Kotlin, .resume .skills ul #Web-related {
+  width: 60%;
+}
+
+.resume .skills ul #SQLite {
+  width: 50%;
+}
+
+.resume .skills ul #Others {
+  width: 70%;
 }
 
 /*Contact Style 
