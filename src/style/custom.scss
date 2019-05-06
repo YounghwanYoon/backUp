@@ -29,8 +29,70 @@ img{
   margin-right: auto;
   text-align: center; 
 }
+/*Resume Style*/
+
+.resume{
+  align-content: center;
+  .jumbotron{
+    background: rgba(#eba715,0.4);
+  }
+  .hexagon {
+    width: 200px;
+    height: 150px;
+    background: red;
+    transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    overflow:hidden;
+    margin:auto;
+    margin-bottom:2.5rem;
+    visibility:hidden;
+    .hexagon-inside {
+      width:100%;
+      height:100%;
+      background:green;
+      transform:roate(-60deg);
+      -moz-transform: rotate(-60deg);
+      -ms-transform: rotate(-60deg);
+      -o-transform: rotate(-60deg);
+      -webkit-transform: rotate(-60deg);
+      overflow: hidden;  
+      visibility:hidden;
+    }
+    .hexagon-image {
+      width:100%;
+      height:100%;
+      background-image: url('../img/myface.jpg');
+      background-position:center;
+      background-size: 100% 100%;
+      -moz-transform: rotate(-60deg);
+      -ms-transform: rotate(-60deg);
+      -o-transform: rotate(-60deg);
+      -webkit-transform: rotate(-60deg);
+      visibility:visible !important;
+    }
+  }
+  #personal-title{
+    text-align: center;
+  }
 
 
+  p{
+    margin-bottom: 0rem !important;
+  }
+  .title{
+    text-align: left !important;
+
+  }
+  .info{
+    text-align: left !important;
+
+  }
+  
+
+}
 
 
 /*Contact Style 

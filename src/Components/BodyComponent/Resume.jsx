@@ -2,27 +2,116 @@
 import React, {Component} from 'react';
 
 class Resume extends Component {
+
+    test(){
+        return(
+            <div>test</div>
+        );
+    }
+
     render() {
         return (
-            <div>
+            <div className="resume">
             <div className="container-fluid padding">
                 <div className="jumbotron">
-                    <div className="row padding">
-                        <div className="col-lg-6">
-                            <img className="border-primary" src="http://assets.barcroftmedia.com.s3-website-eu-west-1.amazonaws.com/assets/images/recent-images-11.jpg" alt ="my face"className="img-fluid"/>
-                        </div>
-                        <div className="col-md-12 col-lg-6">
-                            <h3>Ray Yoon</h3>
-                            <p>Phone: 408-691-7625</p>
-                            <p>Current Location: </p>	
-                            <p>Philadelphia, PA 19128</p>
-                            <a href="/Resume" className="btn btn-primary">Learn More</a>
+                    <div className="hexagon">
+                        <div className="hexagon-inside">
+                            <div className="hexagon-image"> 
+                            </div>
                         </div>
                     </div>
+                    <div className="container-fluid padding" id="personal-info" >
+                        <div className ="row padding">
+                            <div className= "col-md-12 col-lg-6" id="left">
+                                <h5 id="personal-title">Personal Details</h5>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">Name:</p></div>
+                                    <div className="col px-md-5"><p className="info">Ray Yoon</p></div>
+                                </div>
+                                <hr className="light"/>
+
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">D.O.B:</p></div>   
+                                    <div className="col px-md-5"><p className="info">September 13th, 1987</p></div>   
+                                </div>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">Web:</p></div>
+                                    <div className="col px-md-5"><p className="info">www.thiswebsite.com</p></div>
+                                </div>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">Contact:</p></div>
+                                    <div className="col px-md-5"><p className="info">408-691-7625</p></div>
+                                </div>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">Email:</p></div>
+                                    <div className="col px-md-5"><p className="info">ray.yoon87@gmail.com</p></div>
+                                </div>
+                                <hr className="light"/>
+                            </div>
+                            <div className= "col-md-12 col-lg-6" id="right">
+                                 <h5 id="personal-title">Education</h5>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">Degree:</p></div>
+                                    <div className="col px-md-5"><p className="info">A.S. of Computer Science</p></div>
+                                </div>
+                                <hr className="light"/>
+
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">From:</p></div>   
+                                    <div className="col px-md-5"><p className="info">Foothill College</p></div>   
+                                </div>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">When Complete</p></div>
+                                    <div className="col px-md-5"><p className="info">June 30th, 2016</p></div>
+                                </div>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">Degree:</p></div>
+                                    <div className="col px-md-5"><p className="info">B.S. of Biochemistry/Cell-Biology</p></div>
+                                </div>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">From </p></div>
+                                    <div className="col px-md-5"><p className="info">University of California, San Diego</p></div>
+                                </div>
+                                <hr className="light"/>
+                                <div className="row">
+                                    <div className="col px-md-5"><p className="title">When Complete</p></div>
+                                    <div className="col px-md-5"><p className="info">December 30th, 2011</p></div>
+                                </div>
+                                <hr className="light"/>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div className="Experiences">
+                        <h5>Work Experiences</h5>
+                    </div>
+                    <hr className="light"/>
+                    <div className="Objective">
+                        <div className="row padding">
+                            <div className="col-md-12 col-lg-6" id="left">
+                                <h5>Objective</h5>
+                                <hr className="light"/>
+                            </div>
+
+                            <div className="col-md-12 col-lg-6" id="right">
+                                <h5>Skills</h5>
+                                <hr className="light"/>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <hr className="my-4"/>
-            
             <div className="container">            
 	    <div className="block">
             <div className="row">
@@ -40,7 +129,7 @@ class Resume extends Component {
         <br/>
         <div className="objective">
             <h2>Objective</h2>
-            <p>Seeking an Entry Level Mobile or Web Developer position in an established organization where I can use my educational background and develop my skills.</p>
+            <p>Seeking an Entry Level Software Developer position in an established organization where I can use and grow my techinical skills with the company.</p>
         </div>
             <hr/>
                 <div className="experiences">
@@ -134,16 +223,8 @@ class Resume extends Component {
             </div>
             </div>
             </div>
-
-
-
-
-
-
-
-
-
         )
     }
 }
 export default Resume;
+
