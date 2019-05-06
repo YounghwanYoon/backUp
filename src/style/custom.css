@@ -112,6 +112,10 @@ img {
   text-align: left !important;
 }
 
+.resume .work_exp .details ul ul {
+  margin-left: 1rem;
+}
+
 .resume .Objective p {
   text-align: left !important;
 }

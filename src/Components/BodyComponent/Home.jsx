@@ -42,13 +42,8 @@ class Objective extends React.Component{
     );
   }
 }
-/*
-
-
-*/
 
 class Home extends Component {
-   
   render() {
     return (
       <div className={custom}>
@@ -62,23 +57,36 @@ class Home extends Component {
               <div className="carousel-item active" id="img-center">
                 <img src={first_slide} alt= "srt_media_player"/>
                 <div className="carousel-caption">
-                    <button type="button" className="btn btn-outline-light btn-lg">
-                    <a href="https://play.google.com/store/apps/details?id=com.ray.android.srt_media_player">Visit PlayStore</a></button>
-                    <button type="button" className="btn btn-primary btn-lg">Get Started</button>
+                    <button type="button" className="btn btn-outline-secondary btn-lg">
+                      <a href="https://play.google.com/store/apps/details?id=com.ray.android.srt_media_player">
+                        Check It Out
+                      </a>
+                    </button>
                 </div>
               </div>
               <div className="carousel-item">
                   <img src={second_slide} alt="squirrel_college"/>
                   <div className="carousel-caption">
-                    <button type="button" className="btn btn-outline-light btn-lg"><a href="https://play.google.com/store/apps/details?id=com.squirrel.android.collegefootprints">VIEW DEMO</a></button>
-                    <button type="button" className="btn btn-primary btn-lg">Get Started</button>
+                    <button type="button" className="btn btn-outline-success btn-lg">
+                      <a href="https://play.google.com/store/apps/details?id=com.squirrel.android.collegefootprints">
+                        Check It Out
+                      </a>
+                    </button>
                   </div>
               </div>
               <div className="carousel-item">
                 <img className= "img-fluid" src={third_slide} alt="git_slide"/>  
                 <div className="carousel-caption">
-                  <button type="button" className="btn btn-outline-light btn-lg">GitHub</button>
-                  <button type="button" className="btn btn-primary btn-lg">GitLap</button>
+                  <button type="button" className="btn btn-outline-light btn-lg">
+                    <a href="https://github.com/YounghwanYoon?tab=repositories">
+                      GitHub
+                    </a>
+                  </button>
+                  <button type="button" className="btn btn-primary btn-lg">
+                    <a href="https://gitlab.com/CodeStory">
+                      GitLap
+                    </a>
+                  </button>
                 </div>
               </div>
           </div>

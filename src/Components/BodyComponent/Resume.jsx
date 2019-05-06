@@ -1,6 +1,6 @@
 
 import React, {Component} from 'react';
-
+//onClick={this.handleClickEvent('https://play.google.com/store/apps/details?id=com.ray.android.srt_media_player').bind(this)}
 function Experiences(){
     return(
         <div className="work_exp">
@@ -34,58 +34,52 @@ function Experiences(){
                                         Making responsive webpage with solely using BootStrap.
                                     </li>
                                 </ul>	
-                                <li>Published android application links:  </li> 
-                                    <ul>
+                                <li>Click to see Published Android Apps:  </li> 
+                                    <ol>
                                         <li>
-                                            <a href="https://play.google.com/store/apps/details?id=com.ray.android.srt_media_player">
-                                                https://play.google.com/store/apps/details?id=com.ray.android.srt_media_player 
+                                            <a id="SRT_MediaPlayer" href="https://play.google.com/store/apps/details?id=com.ray.android.srt_media_player">
+                                                SRT_Media Player 
                                             </a>
                                         </li>
                                         <li>
                                             <a href="https://play.google.com/store/apps/details?id=com.squirrel.android.collegefootprints">
-                                                https://play.google.com/store/apps/details?id=com.squirrel.android.collegefootprints 
+                                                College Foot Print 
                                             </a>
                                         </li>
-                                    </ul>
+                                    </ol>
                                 <li>Unpublished skilled related applications links: </li>
-                                    <ul>
-                                        <li>
-                                            <a>
- 
-                                            •	https://gitlab.com/CodeStory/Quake-Report
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                            •	https://github.com/YounghwanYoon/React_ResumeSite 
-
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                            •	https://github.com/YounghwanYoon/Miwok_Udacity  
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                            •	https://github.com/YounghwanYoon/Soonami-http- 
-
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-                                            •	https://github.com/YounghwanYoon/SQLITE 
-
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a>
-
-                                            •	https://github.com/YounghwanYoon/Responsive_Web_with_Bootstrap
-                                            </a>
-                                        </li>
-                                    </ul>
-                                <li>Experienced with developing auto file and submission programs using Visual Basic. </li>
+                                <ul>
+                                    <li>
+                                        <a>
+                                            https://gitlab.com/CodeStory/Quake-Report
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            https://github.com/YounghwanYoon/React_ResumeSite 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            https://github.com/YounghwanYoon/Miwok_Udacity  
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            https://github.com/YounghwanYoon/Soonami-http- 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            https://github.com/YounghwanYoon/SQLITE 
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            https://github.com/YounghwanYoon/backUp
+                                        </a>
+                                    </li>
+                                </ul>
                             </ul>
                         </div>
                     </div>
@@ -116,6 +110,7 @@ function Experiences(){
             </div>
         </div>
     );
+
 }
 
 function Objective(){
@@ -165,6 +160,18 @@ function Skills(){
 }
 
 class Resume extends Component {
+    constructor(props){
+        super(props);
+        this.startNewTab = this.startNewTab.bind(this);
+    }
+    handleClickEvent(url){
+        this.startNewTab(url);
+
+    }
+    startNewTab(url){
+        window.open(url, 'www.google.com');
+    }
+    
     render() {
         return (
             <div className="resume">
@@ -186,7 +193,6 @@ class Resume extends Component {
                                     <div className="col px-md-5"><p className="info">Ray Yoon</p></div>
                                 </div>
                                 <hr className="light"/>
-
                                 <div className="row">
                                     <div className="col px-md-5"><p className="title">D.O.B:</p></div>   
                                     <div className="col px-md-5"><p className="info">September 13th, 1987</p></div>   
@@ -194,7 +200,7 @@ class Resume extends Component {
                                 <hr className="light"/>
                                 <div className="row">
                                     <div className="col px-md-5"><p className="title">Web:</p></div>
-                                    <div className="col px-md-5"><p className="info">www.thiswebsite.com</p></div>
+                                    <div className="col px-md-5"><p className="info"><a href="https://my-resume-e7927.firebaseapp.com">My Resume Site</a></p></div>
                                 </div>
                                 <hr className="light"/>
                                 <div className="row">
@@ -245,7 +251,6 @@ class Resume extends Component {
                             </div>
                         </div>
                     </div>
-                
                     <div className="Experiences">
                         <h5>Work Experiences</h5>
                         <hr className="light"/>
@@ -258,7 +263,6 @@ class Resume extends Component {
                                 <hr className="light"/>
                                 <Objective></Objective>
                             </div>
-
                             <div className="col-md-12 col-lg-6" id="right">
                                 <h5>Skills</h5>
                                 <hr className="light"/>
@@ -266,7 +270,6 @@ class Resume extends Component {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             </div>
