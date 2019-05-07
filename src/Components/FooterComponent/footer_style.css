@@ -1,8 +1,8 @@
 Footer {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(233, 236, 239, 0.4) !important;
 }
 
 Footer p {
-  color: #ffc993;
+  color: #2175ad !important;
 }
 /*# sourceMappingURL=footer_style.css.map */

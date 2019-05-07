@@ -5,7 +5,6 @@ function Experiences(){
     return(
         <div className="work_exp">
             <div className="container-fluid padding">
-                
             <div className="row padding">
                     <div className="col-md-12 col-lg-6" id="left">
                         <div className="title">
@@ -194,11 +193,6 @@ class Resume extends Component {
                                 </div>
                                 <hr className="light"/>
                                 <div className="row">
-                                    <div className="col px-md-5"><p className="title">D.O.B:</p></div>   
-                                    <div className="col px-md-5"><p className="info">September 13th, 1987</p></div>   
-                                </div>
-                                <hr className="light"/>
-                                <div className="row">
                                     <div className="col px-md-5"><p className="title">Web:</p></div>
                                     <div className="col px-md-5"><p className="info"><a href="https://my-resume-e7927.firebaseapp.com">My Resume Site</a></p></div>
                                 </div>
@@ -229,11 +223,6 @@ class Resume extends Component {
                                 </div>
                                 <hr className="light"/>
                                 <div className="row">
-                                    <div className="col px-md-5"><p className="title">When Complete</p></div>
-                                    <div className="col px-md-5"><p className="info">June 30th, 2016</p></div>
-                                </div>
-                                <hr className="light"/>
-                                <div className="row">
                                     <div className="col px-md-5"><p className="title">Degree:</p></div>
                                     <div className="col px-md-5"><p className="info">B.S. of Biochemistry/Cell-Biology</p></div>
                                 </div>
@@ -241,11 +230,6 @@ class Resume extends Component {
                                 <div className="row">
                                     <div className="col px-md-5"><p className="title">From </p></div>
                                     <div className="col px-md-5"><p className="info">University of California, San Diego</p></div>
-                                </div>
-                                <hr className="light"/>
-                                <div className="row">
-                                    <div className="col px-md-5"><p className="title">When Complete</p></div>
-                                    <div className="col px-md-5"><p className="info">December 30th, 2011</p></div>
                                 </div>
                                 <hr className="light"/>
                             </div>

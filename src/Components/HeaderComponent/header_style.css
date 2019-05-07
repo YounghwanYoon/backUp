@@ -1,7 +1,12 @@
 header nav span {
   margin-left: 1rem;
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: Trebuchet MS;
   color: black !important;
-  font-size: 1.2rem;
+  font-size: 1.7rem !important;
+  font-weight: bold;
+}
+
+header .bg-light {
+  background-color: white !important;
 }
 /*# sourceMappingURL=header_style.css.map */

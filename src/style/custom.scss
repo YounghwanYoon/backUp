@@ -6,10 +6,16 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 body{
+  font-family: sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue" !important;
+
   .carousel{
     text-align: center !important;
-    background-color: #797979 !important;
+    background: rgba(#e9ecef,0.4)!important;
     opacity: 50% !important;
+    .btn{
+      background-color:rgba(#e9ecef,1.0)!important;
+      border: 2px solid !important;
+    }
   }
   .col-lg-6{
     text-align: center !important;
@@ -20,8 +26,9 @@ body{
   
 }
 p {
-  color: rgb(153, 121, 121);
+  color: black;
 } 
+
 
 img{
   position: relative;
@@ -29,15 +36,34 @@ img{
   margin-right: auto;
   text-align: center; 
 }
+
+/*About Me Style*/
+.objective{
+  .jumbotron{
+    background-color: white !important;
+  }
+  .display-4{
+    font-size:3rem !important;
+    margin-bottom:1.5rem !important;
+  }
+  .h6{
+    font-weight: 100 !important;
+    margin-bottom: 2rem !important;
+    padding-bottom: 2rem !important;
+
+  }
+
+}
+
 /*Resume Style*/
 
 .resume{
   align-content: center;
   .jumbotron{
-    background: rgba(#eba715,0.4);
+    background: rgba(#e9ecef,0.4);
   }
   .hexagon {
-    width: 200px;
+    width: 170px;
     height: 150px;
     background: red;
     transform: rotate(120deg);
@@ -48,7 +74,7 @@ img{
     overflow:hidden;
     margin:auto;
     margin-bottom:2.5rem;
-    visibility:hidden;
+    visibility: hidden;
     .hexagon-inside {
       width:100%;
       height:100%;
@@ -80,7 +106,6 @@ img{
   }
   p{
     margin-bottom: 0rem !important;
-    color: #000091 !important;
   }
   .title{
     text-align: left !important;
@@ -137,9 +162,13 @@ img{
  .jumbotron{
     //background-color: #5ea7d3 !important;
   }
+    background-image: url('../img/background.jpg') !important;
+    border: 2px solid rgb(33,117,173);
+    border: 2px solid rgb(33, 117, 173);
+        background: rgba(#e9ecef, 0.8);
+
 */
 .contact{
-  background-image: url('../img/background.jpg') !important;
   position: relative;
   width:100%;
   display: block;
@@ -149,31 +178,36 @@ img{
   transform: translateZ(0);
   will-change: transform;
   overflow:hidden;
-  border-radius: 0.5rem;
-  border: 2px solid rgb(33,117,173);
+  
+  .jumbotron{
+    background-color: white !important;
+  }
 
   label{
-    font-family: Impact, Charcoal, sans-serif	;
+    font-family: Trebuchet MS;    ;
     color: black !important;
-
+    font-size: 1.2rem !important;
+    font-weight: bold;
     border-radius: .7rem;
-    border: 2px solid rgb(33, 117, 173);
+
     padding: 0.2rem; 
 
-    background: rgba(#e9ecef, 0.8);
     margin-top: 1rem;
 
   }
   input{
-    border-radius: 0.7rem;
+    border-radius: 0.3rem;
     border: 2px solid rgb(33,117,173);
+    padding-right: 0.5rem;
+
   }
   textarea{
-    border-radius: 0.7rem;
+    border-radius: 0.3rem;
     border: 2px solid rgb(33,117,173);
   }
   button {
     margin: 0.5rem;
+    margin-bottom: 5rem;
   }
 }
 

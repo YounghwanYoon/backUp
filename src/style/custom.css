@@ -6,10 +6,19 @@ html {
   font-family: 'Poppins', sans-serif;
 }
 
+body {
+  font-family: sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue" !important;
+}
+
 body .carousel {
   text-align: center !important;
-  background-color: #797979 !important;
+  background: rgba(233, 236, 239, 0.4) !important;
   opacity: 50% !important;
+}
+
+body .carousel .btn {
+  background-color: #e9ecef !important;
+  border: 2px solid !important;
 }
 
 body .col-lg-6 {
@@ -21,7 +30,7 @@ body .contact {
 }
 
 p {
-  color: #997979;
+  color: black;
 }
 
 img {
@@ -31,6 +40,22 @@ img {
   text-align: center;
 }
 
+/*About Me Style*/
+.objective .jumbotron {
+  background-color: white !important;
+}
+
+.objective .display-4 {
+  font-size: 3rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.objective .h6 {
+  font-weight: 100 !important;
+  margin-bottom: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
 /*Resume Style*/
 .resume {
   -ms-flex-line-pack: center;
@@ -38,11 +63,11 @@ img {
 }
 
 .resume .jumbotron {
-  background: rgba(235, 167, 21, 0.4);
+  background: rgba(233, 236, 239, 0.4);
 }
 
 .resume .hexagon {
-  width: 200px;
+  width: 170px;
   height: 150px;
   background: red;
   transform: rotate(120deg);
@@ -89,7 +114,6 @@ img {
 
 .resume p {
   margin-bottom: 0rem !important;
-  color: #000091 !important;
 }
 
 .resume .title {
@@ -149,9 +173,13 @@ img {
  .jumbotron{
     //background-color: #5ea7d3 !important;
   }
+    background-image: url('../img/background.jpg') !important;
+    border: 2px solid rgb(33,117,173);
+    border: 2px solid rgb(33, 117, 173);
+        background: rgba(#e9ecef, 0.8);
+
 */
 .contact {
-  background-image: url("../img/background.jpg") !important;
   position: relative;
   width: 100%;
   display: block;
@@ -161,32 +189,36 @@ img {
   transform: translateZ(0);
   will-change: transform;
   overflow: hidden;
-  border-radius: 0.5rem;
-  border: 2px solid #2175ad;
+}
+
+.contact .jumbotron {
+  background-color: white !important;
 }
 
 .contact label {
-  font-family: Impact, Charcoal, sans-serif;
+  font-family: Trebuchet MS;
   color: black !important;
+  font-size: 1.2rem !important;
+  font-weight: bold;
   border-radius: .7rem;
-  border: 2px solid #2175ad;
   padding: 0.2rem;
-  background: rgba(233, 236, 239, 0.8);
   margin-top: 1rem;
 }
 
 .contact input {
-  border-radius: 0.7rem;
+  border-radius: 0.3rem;
   border: 2px solid #2175ad;
+  padding-right: 0.5rem;
 }
 
 .contact textarea {
-  border-radius: 0.7rem;
+  border-radius: 0.3rem;
   border: 2px solid #2175ad;
 }
 
 .contact button {
   margin: 0.5rem;
+  margin-bottom: 5rem;
 }
 
 /*!

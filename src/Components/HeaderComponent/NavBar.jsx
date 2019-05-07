@@ -80,10 +80,10 @@ class Navigation extends Component {
 */
   render() {
     return (
-      <nav className ="navbar navbar-expand-md navbar-light bg-light sticky-top">
+      <nav className ="navbar navbar-expand-md navbar-light bg-light sticky-top" id="#navbar">
           <div className ="container-fluid">
               <a href= "/"><Logo></Logo></a>
-              <span className="title">Ray's Resume</span>
+              <span className="title">Ray Yoon</span>
               <button className="navbar-toggler" type="button" data-toggle="collapse"
               data-target="#navbarResponsive">
                   <span className="navbar-toggler-icon"></span>
