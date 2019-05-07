@@ -124,6 +124,10 @@ img {
   text-align: left !important;
 }
 
+.resume .Experiences h5 {
+  text-align: center;
+}
+
 .resume .work_exp .job_title {
   font-weight: bold;
 }
